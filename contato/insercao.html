@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+        <meta charset="utf-8">
+        <script src="../js/lib.js" defer> </script>
+        <script src="https://kit.fontawesome.com/614242823a.js" crossorigin="anonymous"></script>
+        <title>Form</title>
+    </head>
+
+    <body>
+        <form class="box" action="insercao.html" method="POST">
+        <div class="all">
+            <a class="back" href="../contato/index.html"><i class="fas fa-arrow-left"></i></a>
+                    <label> Nome: </label>
+                    <input type="text" id="name">
+         
+
+                    <label> Contato : </label>
+                    <input type="text" id="contact">
+    
+            
+                    <label> Endereço : </label>
+                    <input type="text" id="address">
+                    <a onclick="doShowInputs()" class="back">Dados</a> <p></p>
+
+            <a href="../contato/insercao.html" class="fcinco">Reset</a> 
+        </div>
+    
+        <div class="post">
+            <p id="nome"> </p>
+            <p id="nmr"> </p>
+            <p id="end"> </p>
+        </div>
+        </form>
+    </body>
+</html>
